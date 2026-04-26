@@ -1,7 +1,5 @@
 # LA Audio E.Q. Test
 
-*Designed and authored by Lakshya Gupta*
-
 ---
 
 ## Overview
@@ -36,7 +34,7 @@ Ground truth labels are assigned by the author based on the intended vocal deliv
 
 ## Model Evaluated: NVIDIA Audio Flamingo 3
 
-**Interface used:** [https://huggingface.co/spaces/nvidia/audio-flamingo-3](https://huggingface.co/spaces/nvidia/audio-flamingo-3)
+**Interface used:** [nvidia/audio-flamingo-3 on Hugging Face Spaces](https://huggingface.co/spaces/nvidia/audio-flamingo-3)
 
 ---
 
@@ -44,7 +42,7 @@ Ground truth labels are assigned by the author based on the intended vocal deliv
 
 ### Test 1
 
-![Test 1](Assets/test1.png)
+![Test 1](Assets/AF3/test1.png)
 
 | Field | Value |
 |---|---|
@@ -58,7 +56,7 @@ Ground truth labels are assigned by the author based on the intended vocal deliv
 
 ### Test 2
 
-![Test 2](Assets/test2.png)
+![Test 2](Assets/AF3/test2.png)
 
 | Field | Value |
 |---|---|
@@ -72,7 +70,7 @@ Ground truth labels are assigned by the author based on the intended vocal deliv
 
 ### Test 3
 
-![Test 3](Assets/test3.png)
+![Test 3](Assets/AF3/test3.png)
 
 | Field | Value |
 |---|---|
@@ -86,7 +84,7 @@ Ground truth labels are assigned by the author based on the intended vocal deliv
 
 ### Test 4
 
-![Test 4](Assets/test4.png)
+![Test 4](Assets/AF3/test4.png)
 
 | Field | Value |
 |---|---|
@@ -100,7 +98,7 @@ Ground truth labels are assigned by the author based on the intended vocal deliv
 
 ### Test 5
 
-![Test 5](Assets/test5.png)
+![Test 5](Assets/AF3/test5.png)
 
 | Field | Value |
 |---|---|
@@ -122,13 +120,57 @@ Ground truth labels are assigned by the author based on the intended vocal deliv
 | 4 | "I already know all this." | Ambiguous (Confident, Neutral) | Neutral | ✅ Pass |
 | 5 | "Oh, thank you so much..." | Sarcastic | Sarcastic (with anger) | ✅ Pass (partial) |
 
-**NVIDIA Audio Flamingo 3 is one of the very few models evaluated that passes this test.** Most systems — including leading cascade-based speech AI — fail by returning the emotion implied by the transcript rather than the vocal delivery in our testing.
+**NVIDIA Audio Flamingo 3 is one of the very few models evaluated that passes this test.** Most systems — including leading cascade-based speech AI — fail by returning the emotion implied by the transcript rather than the vocal delivery.
 
 ---
 
-## Significance
+---
 
-The LA Audio EQ Test was developed out of a practical need: building a real-time AI speech coaching application that responds to *how* a user speaks, not just *what* they say.
+## Model Evaluated: Gemini
+
+**Interface used:** Google AI Studio
+
+---
+
+## Test Results
+
+### Test 1
+
+![Test 1](Assets/Gemini-3.0-Pro/test1.1.png)
+![Test 1](Assets/Gemini-3.0-Pro/test1.2.png)
+
+| Field | Value |
+|---|---|
+| **Audio Transcript** | "I hate you." |
+| **Vocal Delivery** | Cheerful, warm, affectionate |
+| **Ground Truth** | Happy |
+| **Model Response** | Affection or Playfulness (structured response: "Affectionate") |
+| **Result** | ✅ Pass |
+
+---
+
+### Test 2
+
+![Test 2](Assets/Gemini-3.0-Pro/test2.png)
+
+| Field | Value |
+|---|---|
+| **Audio Transcript** | "Oh, I hate you so much." |
+| **Vocal Delivery** | Playful, joyful |
+| **Ground Truth** | Happy |
+| **Model Response** | Amusement or Joy |
+| **Result** | ✅ Pass |
+
+---
+
+## Summary
+
+| Test | Transcript | Ground Truth | Model Response | Result |
+|---|---|---|---|---|
+| 1 | "I hate you." | Happy | Affection / Playfulness | ✅ Pass |
+| 2 | "Oh, I hate you so much." | Happy | Amusement / Joy | ✅ Pass |
+
+*Tests 3–5 pending evaluation on Gemini.*
 
 ---
 
@@ -143,3 +185,13 @@ This benchmark, including all test cases, audio samples, results, methodology, a
 **Prohibited use:** Commercial use, redistribution, modification, or incorporation into any product or system — in whole or in part — without explicit written permission is strictly prohibited.
 
 **To request permission:** Contact [lakshya.gupta.ug24@plaksha.edu.in](mailto:lakshya.gupta.ug24@plaksha.edu.in) with a description of your intended use.
+
+---
+
+## Author
+
+**Lakshya Gupta**
+Second-year B.Tech, Computer Science
+Plaksha University
+[lakshya.gupta.ug24@plaksha.edu.in](mailto:lakshya.gupta.ug24@plaksha.edu.in)
+[linkedin.com/in/la-dev](https://linkedin.com/in/la-dev)
