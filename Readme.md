@@ -181,13 +181,3 @@ This benchmark, including all test cases, audio samples, results, methodology, a
 **Prohibited use:** Commercial use, redistribution, modification, or incorporation into any product or system — in whole or in part — without explicit written permission is strictly prohibited.
 
 **To request permission:** Contact [lakshya.gupta.ug24@plaksha.edu.in](mailto:lakshya.gupta.ug24@plaksha.edu.in) with a description of your intended use.
-
----
-
-## Author
-
-**Lakshya Gupta**
-Second-year B.Tech, Computer Science
-Plaksha University
-[lakshya.gupta.ug24@plaksha.edu.in](mailto:lakshya.gupta.ug24@plaksha.edu.in)
-[linkedin.com/in/la-dev](https://linkedin.com/in/la-dev)
