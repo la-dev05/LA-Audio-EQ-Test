@@ -44,7 +44,7 @@ Ground truth labels are assigned by the author based on the intended vocal deliv
 
 ### Test 1
 
-![Test 1](assets/test1.png)
+![Test 1](Assets/test1.png)
 
 | Field | Value |
 |---|---|
@@ -58,7 +58,7 @@ Ground truth labels are assigned by the author based on the intended vocal deliv
 
 ### Test 2
 
-![Test 2](assets/test2.png)
+![Test 2](Assets/test2.png)
 
 | Field | Value |
 |---|---|
@@ -72,7 +72,7 @@ Ground truth labels are assigned by the author based on the intended vocal deliv
 
 ### Test 3
 
-![Test 3](assets/test3.png)
+![Test 3](Assets/test3.png)
 
 | Field | Value |
 |---|---|
@@ -86,7 +86,7 @@ Ground truth labels are assigned by the author based on the intended vocal deliv
 
 ### Test 4
 
-![Test 4](assets/test4.png)
+![Test 4](Assets/test4.png)
 
 | Field | Value |
 |---|---|
@@ -100,7 +100,7 @@ Ground truth labels are assigned by the author based on the intended vocal deliv
 
 ### Test 5
 
-![Test 5](assets/test5.png)
+![Test 5](Assets/test5.png)
 
 | Field | Value |
 |---|---|
