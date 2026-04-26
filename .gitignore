@@ -1,1 +1,9 @@
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Audio files (uncomment if you want to exclude raw audio from the repo)
+# *.m4a
+# *.mp3
+# *.wav
