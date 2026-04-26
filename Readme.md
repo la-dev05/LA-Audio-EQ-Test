@@ -118,7 +118,7 @@ Ground truth labels are assigned by the author based on the intended vocal deliv
 | 4 | "I already know all this." | Ambiguous (Confident, Neutral) | Neutral | ✅ Pass |
 | 5 | "Oh, thank you so much..." | Sarcastic | Sarcastic (with anger) | ✅ Pass (partial) |
 
-**NVIDIA Audio Flamingo 3 is one of the very few models evaluated that passes this test.** Most systems — including leading cascade-based speech AI — fail by returning the emotion implied by the transcript rather than the vocal delivery in out testing.
+**NVIDIA Audio Flamingo 3 is one of the very few models evaluated that passes this test.** Most systems — including leading cascade-based speech AI — fail by returning the emotion implied by the transcript rather than the vocal delivery in our testing.
 
 ---
 
