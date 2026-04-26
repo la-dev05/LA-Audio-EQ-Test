@@ -1,7 +1,5 @@
 # LA Audio E.Q. Test
 
----
-
 ## Overview
 
 The **LA Audio E.Q. Test** evaluates an AI model's ability to recognize emotional tone in spoken audio *independently of linguistic content* — that is, by listening to *how* something is said rather than *what* is said.
